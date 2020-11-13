@@ -1,0 +1,31 @@
+{
+  "name": "microbit_thingspeak_api",
+  "version": "1.0.0",
+  "description": "This is a sample server deployed locally to use Node.js to catch responses uploaded from Micro:Bit via Thingspeak 8266 Library",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyfung/microbit_thingspeak_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyfung/microbit_thingspeak_api/issues"
+  },
+  "homepage": "https://github.com/hyfung/microbit_thingspeak_api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "morgan": "^1.10.0"
+  }
+}
